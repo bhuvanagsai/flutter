@@ -1,15 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutterproject/common/find_out_Button.dart';
-
+import 'package:flutterproject/widgets/find_out_Button.dart';
 import 'package:flutterproject/themes/themes.dart';
-import 'package:flutterproject/widgets/globe_reward.dart';
+import 'package:flutterproject/widgets/GlobeRewards/globe_reward.dart';
 import 'package:flutterproject/widgets/my_plans.dart';
-import 'package:flutterproject/widgets/my_subscriptions.dart';
-import 'package:flutterproject/widgets/plans.dart';
-import 'package:flutterproject/widgets/roaming_plans.dart';
-import 'package:flutterproject/widgets/special_promos.dart';
-import 'package:flutterproject/widgets/latest_promos.dart';
-import 'package:flutterproject/widgets/vouchers.dart';
+import 'package:flutterproject/widgets/Subscriptions/my_subscriptions.dart';
+import 'package:flutterproject/widgets/MyPlans/plans.dart';
+import 'package:flutterproject/widgets/RoamingPlans/roaming_plans.dart';
+import 'package:flutterproject/widgets/SpecialPromos/special_promos.dart';
+import 'package:flutterproject/widgets/LatestPromo/latest_promos.dart';
+import 'package:flutterproject/widgets/Vouchers/vouchers.dart';
 
 import './common/app_bar.dart';
 

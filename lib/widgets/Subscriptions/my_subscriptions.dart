@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutterproject/resources/images.dart';
+import 'package:flutterproject/resources/string.dart';
 
 import 'package:flutterproject/themes/colors.dart';
 import 'package:flutterproject/common/gradient.dart';
-import 'package:flutterproject/widgets/also_like.dart';
-import 'package:flutterproject/widgets/medias.dart';
+import 'package:flutterproject/widgets/Subscriptions/also_like.dart';
+import 'package:flutterproject/widgets/Subscriptions/medias.dart';
 
 class MySubcriptions extends StatelessWidget {
   final List<Map<String, dynamic>> netFlixImage = [
@@ -18,8 +19,6 @@ class MySubcriptions extends StatelessWidget {
       'image': Images.MOVIE_IMAGE,
     },
   ];
-  // var netFliximage = new Image.asset(Images.NETFLIX_IMAGE);
-  // var amazonImage = new Image.asset(Images.PRIME_IMAGE);
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -35,7 +34,7 @@ class MySubcriptions extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
-              Text('My Subscriptions',
+              Text(Strings.MYSUBSCRIPTIONS,
                   style: TextStyle(
                       color: AppColors.COLOR_WHITE.withOpacity(0.35),
                       fontSize: 14,

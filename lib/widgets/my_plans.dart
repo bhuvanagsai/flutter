@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutterproject/resources/images.dart';
+import 'package:flutterproject/resources/string.dart';
 import 'package:flutterproject/themes/colors.dart';
 
 class MyPlans extends StatelessWidget {
@@ -12,7 +13,7 @@ class MyPlans extends StatelessWidget {
       children: <Widget>[
         Padding(
             padding: const EdgeInsets.fromLTRB(20, 10, 20, 10),
-            child: Text("My Prepaid",
+            child: Text(Strings.MYPREPAID,
                 style: TextStyle(
                   color: AppColors.COLOR_GREYISH_BROWN,
                   fontSize: 12,

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutterproject/common/gradient.dart';
+import 'package:flutterproject/resources/string.dart';
 import 'package:flutterproject/themes/colors.dart';
 import 'package:flutterproject/widgets/promos_card.dart';
 
@@ -13,7 +14,7 @@ class SpecialPromos extends StatelessWidget {
         child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
-              GradientText(text: "Special Promos", colors: [
+              GradientText(text: Strings.SPECIALPROMOS, colors: [
                 AppColors.COLOR_SAPPRINE,
                 AppColors.COLOR_LAVENDER_PINK
               ]),

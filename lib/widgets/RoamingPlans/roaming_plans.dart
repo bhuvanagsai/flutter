@@ -1,24 +1,26 @@
 import 'package:flutter/material.dart';
-import 'package:flutterproject/themes/colors.dart';
 import 'package:flutterproject/common/gradient.dart';
-import 'package:flutterproject/widgets/globe_reward_card.dart';
+import 'package:flutterproject/resources/string.dart';
+import 'package:flutterproject/themes/colors.dart';
+import 'package:flutterproject/widgets/promos_card.dart';
 
-class GlobeRewards extends StatelessWidget {
+class RoamingPlans extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        margin: EdgeInsets.fromLTRB(20, 12, 20, 10),
+        margin: EdgeInsets.all(20),
         child: Column(children: <Widget>[
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              GradientText(text: "Globe Rewards", colors: [
+              GradientText(text: Strings.ROAMINGPROMOS, colors: [
                 AppColors.COLOR_SAPPRINE,
                 AppColors.COLOR_LAVENDER_PINK
               ]),
             ],
           ),
-          GlobeRewardCard('Your Reward Points', '7250')
+          PromoCard('GoSakto', 'Planing for a foreign trip?',
+              'Roam worry free!', 'Explore Roaming Packs')
         ]));
   }
 }

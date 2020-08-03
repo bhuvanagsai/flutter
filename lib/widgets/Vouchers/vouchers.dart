@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutterproject/themes/colors.dart';
-import 'package:flutterproject/widgets/voucher_card.dart';
+import 'package:flutterproject/widgets/Vouchers/voucher_card.dart';
 
 class Vouchers extends StatelessWidget {
   @override

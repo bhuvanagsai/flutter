@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutterproject/resources/string.dart';
 import 'package:flutterproject/themes/colors.dart';
 import 'package:flutterproject/common/gradient.dart';
-import 'package:flutterproject/widgets/latest_promo_card.dart';
+import 'package:flutterproject/widgets/LatestPromo/latest_promo_card.dart';
 
 class LatestPromo extends StatelessWidget {
   @override
@@ -18,13 +19,13 @@ class LatestPromo extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    GradientText(text: "Latest Promos", colors: [
+                    GradientText(text: Strings.LATESTPROMOS, colors: [
                       AppColors.COLOR_SAPPRINE,
                       AppColors.COLOR_LAVENDER_PINK
                     ]),
                     GestureDetector(
                         onTap: () {},
-                        child: Text("View All",
+                        child: Text(Strings.VIEWALL,
                             style: TextStyle(
                               color: AppColors.COLOR_LIGHTISH_BLUE,
                               fontSize: 13,

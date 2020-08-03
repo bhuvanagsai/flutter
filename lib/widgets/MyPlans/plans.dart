@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutterproject/resources/string.dart';
 import 'package:flutterproject/themes/colors.dart';
-import 'package:flutterproject/widgets/plans_card.dart';
-import 'package:flutterproject/widgets/recommended_plans.dart';
+import 'package:flutterproject/widgets/MyPlans/plans_card.dart';
+import 'package:flutterproject/widgets/MyPlans/recommended_plans.dart';
 
 class Plans extends StatelessWidget {
   @override
@@ -24,12 +25,12 @@ class Plans extends StatelessWidget {
                 child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text("Recommeded",
+                      Text(Strings.RECOMMEDNED,
                           style: TextStyle(
                               color: AppColors.COLOR_GREYISH_BROWN_THREE,
                               fontSize: 12,
                               fontWeight: (FontWeight.w600))),
-                      Text("View All",
+                      Text(Strings.VIEWALL,
                           style: TextStyle(
                               color: AppColors.COLOR_LIGHTISH_BLUE,
                               fontSize: 12,
